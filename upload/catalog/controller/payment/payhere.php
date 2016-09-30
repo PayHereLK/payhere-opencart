@@ -101,7 +101,7 @@ class ControllerPaymentPayHere extends Controller {
 		}
         
 
-		return $this->load->view('payment/payhere', $data);
+		return $this->load->view('payment/payhere.tpl', $data);
 	}
 
 	public function callback() {
